@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(images/wed.png);
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(IMG/coffee3bg.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .login-container {
+ background-color: #fff;
+ padding: 50px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ width: 400px;
+ }
+ .login-container h2 {
+ text-align: center;
+ margin-bottom: 20px;
+ text-align: center;
+ font-size:35px;
+ font-family: 'Times New Roman', Times, serif;
+ text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .input-group {
+ margin-bottom: 15px;
+ }
+ .input-group label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+ }
+ .input-group input {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ }
+ input[type="text"], input[type="email"], input[type="password"] {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ input[type="submit"] {
+ background-color: #007bff;
+ color: #fff;
+ padding: 10px 50px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ align: center;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .login-button {
+ background-color: blueviolet;
+ color: white;
+ padding: 10px ;
+ border: none;
+ border-radius: 3px;
+ width: 180px;
+ cursor: pointer;
+ }
+ .login-button:hover {
+ background-color: #6e45a0;
+ }
